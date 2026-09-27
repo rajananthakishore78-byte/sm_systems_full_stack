@@ -1,0 +1,20 @@
+[
+  {
+    "id": "o1",
+    "title": "Festive Season Combo",
+    "description": "Get a 4-camera dome kit with DVR, cables and power supply at a bundled price. Free basic installation within city limits.",
+    "discountText": "Save up to \u20b93,000",
+    "image": "",
+    "validTill": "2026-11-15",
+    "active": true
+  },
+  {
+    "id": "o2",
+    "title": "Shop & Office Security Package",
+    "description": "2 bullet cameras + 1 dome camera + 4-channel NVR, ready to install. Perfect starter package for small shops.",
+    "discountText": "Flat 15% off",
+    "image": "",
+    "validTill": "2026-10-31",
+    "active": true
+  }
+]

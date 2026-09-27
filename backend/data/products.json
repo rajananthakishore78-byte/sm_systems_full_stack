@@ -1,0 +1,141 @@
+[
+  {
+    "id": "p1",
+    "name": "2MP Dome Camera - Night Vision",
+    "category": "Dome Cameras",
+    "price": 1499,
+    "mrp": 1899,
+    "image": "/uploads/1790513368623-458625.webp",
+    "description": "Indoor/outdoor dome camera with 20m night vision, weatherproof body and wide-angle lens. Ideal for shops, offices and home entrances.",
+    "specs": {
+      "Resolution": "2MP (1080p)",
+      "Night Vision Range": "20 meters",
+      "Lens": "3.6mm fixed",
+      "Weatherproof": "IP66",
+      "Warranty": "1 Year"
+    },
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "p2",
+    "name": "4MP Bullet Camera - Outdoor",
+    "category": "Bullet Cameras",
+    "price": 2199,
+    "mrp": 2699,
+    "image": "",
+    "description": "Long-range outdoor bullet camera with 30m night vision and metal housing, built for gates, compounds and parking areas.",
+    "specs": {
+      "Resolution": "4MP",
+      "Night Vision Range": "30 meters",
+      "Lens": "3.6mm fixed",
+      "Weatherproof": "IP67",
+      "Warranty": "2 Years"
+    },
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "p3",
+    "name": "5MP PTZ Speed Dome Camera",
+    "category": "PTZ Cameras",
+    "price": 8999,
+    "mrp": 10999,
+    "image": "",
+    "description": "Pan-Tilt-Zoom camera with 10x optical zoom and auto-tracking, suited for large compounds, warehouses and street coverage.",
+    "specs": {
+      "Resolution": "5MP",
+      "Zoom": "10x optical",
+      "Pan Range": "360° continuous",
+      "Weatherproof": "IP66",
+      "Warranty": "2 Years"
+    },
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "p4",
+    "name": "WiFi Smart Camera - Indoor",
+    "category": "Wireless / WiFi Cameras",
+    "price": 1799,
+    "mrp": 2199,
+    "image": "",
+    "description": "App-controlled WiFi camera with two-way audio, motion alerts and pan-tilt coverage. No wiring needed, just plug and connect.",
+    "specs": {
+      "Resolution": "3MP",
+      "Connectivity": "2.4GHz WiFi",
+      "Audio": "Two-way",
+      "Storage": "microSD / Cloud",
+      "Warranty": "1 Year"
+    },
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "p5",
+    "name": "8-Channel NVR",
+    "category": "DVR & NVR",
+    "price": 4499,
+    "mrp": 5499,
+    "image": "",
+    "description": "8-channel network video recorder supporting up to 5MP cameras, remote mobile viewing and motion-based recording.",
+    "specs": {
+      "Channels": "8",
+      "Max Camera Resolution": "5MP",
+      "HDD Bays": "1 (up to 6TB)",
+      "Remote Viewing": "Mobile App + Web",
+      "Warranty": "2 Years"
+    },
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "p6",
+    "name": "Surveillance Hard Disk 1TB",
+    "category": "Hard Disks",
+    "price": 3299,
+    "mrp": 3799,
+    "image": "",
+    "description": "Purpose-built surveillance-grade hard disk for continuous 24x7 recording, compatible with all major DVR/NVR brands.",
+    "specs": {
+      "Capacity": "1TB",
+      "Type": "Surveillance-grade",
+      "Interface": "SATA III",
+      "Warranty": "3 Years"
+    },
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "p7",
+    "name": "3+1 Copper CCTV Cable (90m)",
+    "category": "Cables & Connectors",
+    "price": 1299,
+    "mrp": 1499,
+    "image": "",
+    "description": "Pure copper 3+1 combination cable for power and video, 90 meter roll, ideal for new CCTV installations.",
+    "specs": {
+      "Length": "90 meters",
+      "Conductor": "Pure Copper",
+      "Type": "3+1 Combo (Power + Video)"
+    },
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "p8",
+    "name": "CCTV SMPS Power Supply (8 Channel)",
+    "category": "Power Supplies",
+    "price": 899,
+    "mrp": 1099,
+    "image": "",
+    "description": "8-channel centralized power supply unit with individual fuse protection for each camera output.",
+    "specs": {
+      "Output Channels": "8",
+      "Output": "12V DC",
+      "Protection": "Individual fuse per channel"
+    },
+    "inStock": true,
+    "featured": false
+  }
+]
