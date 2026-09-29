@@ -20,11 +20,16 @@ services:
       - key: CLIENT_ORIGIN
         sync: false
 
-staticSites:
-  - name: sm-systems-frontend
+  - type: web
+    name: sm-systems-frontend
+    runtime: static
     rootDir: frontend
     buildCommand: npm install; npm run build
-    staticPublishPath: dist
+    staticPublishPath: frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
     envVars:
       - key: VITE_API_URL
         sync: false
