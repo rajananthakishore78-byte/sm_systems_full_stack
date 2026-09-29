@@ -5,22 +5,22 @@ export default {
     extend: {
       colors: {
         night: {
-          950: "#0A0F0D",
-          900: "#0E1613",
-          800: "#141F1B",
-          700: "#1C2925",
-          600: "#293B35",
+          950: "#FFFFFF",
+          900: "#FFF7ED",
+          800: "#F5F5F5",
+          700: "#E5E5E5",
+          600: "#A3A3A3",
         },
    signal: {
-     DEFAULT: "#E8963C",
-     dim: "#A8651E",
-     light: "#F5C27A",
+     DEFAULT: "#FF6B00",
+     dim: "#C24E00",
+     light: "#FF8E3D",
    },
    alert: {
-     DEFAULT: "#F2542D",
-     dim: "#B33C1F",
+     DEFAULT: "#FF6B00",
+     dim: "#C24E00",
    },
-        paper: "#F4F6F4",
+        paper: "#1C1917",
       },
       fontFamily: {
         display: ["'Space Grotesk'", "sans-serif"],

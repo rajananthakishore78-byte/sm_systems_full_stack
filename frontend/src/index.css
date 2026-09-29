@@ -71,8 +71,8 @@ h1, h2, h3, h4 {
 }
 
 ::selection {
-  background: #39D98A;
-  color: #E8963C;
+  background: #FF6B00;
+  color: #FFFFFF;
 }
 
 /* Respect reduced-motion preferences */
