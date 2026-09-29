@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useBusiness } from "../context/BusinessContext.jsx";
+import { imageUrl } from "../api";
 
 const links = [
   { to: "/", label: "Home" },
@@ -19,16 +20,13 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           <NavLink to="/" className="flex items-center gap-2 group" onClick={() => setOpen(false)}>
-            <span className="relative w-9 h-9 flex items-center justify-center border border-signal text-signal">
-              <span className="vf-tr" />
-              <span className="vf-br" />
-              <span className="absolute inset-0 viewfinder text-signal" />
-              <svg viewBox="0 0 24 24" className="w-4 h-4 relative" fill="currentColor">
-                <circle cx="12" cy="12" r="4" />
-              </svg>
-            </span>
+            <img
+              src={business.logo ? imageUrl(business.logo) : "/logo.png"}
+              alt={business.name || "SM Systems"}
+              className="w-9 h-9 object-contain bg-white"
+            />
             <span className="font-display font-semibold text-lg tracking-tight text-paper">
-              {business.name || "SecureView CCTV"}
+              {business.name || "SM Systems"}
             </span>
           </NavLink>
 

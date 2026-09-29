@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useBusiness } from "../context/BusinessContext.jsx";
+import { imageUrl } from "../api";
 
 export default function Footer() {
   const { business } = useBusiness();
@@ -10,9 +11,16 @@ export default function Footer() {
     <footer className="border-t border-night-700 bg-night-900 mt-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid gap-10 sm:grid-cols-3">
         <div>
-          <h3 className="font-display font-semibold text-paper text-lg">
-            {business.name || "SecureView CCTV"}
-          </h3>
+          <div className="flex items-center gap-2">
+            <img
+              src={business.logo ? imageUrl(business.logo) : "/logo.png"}
+              alt={business.name || "SM Systems"}
+              className="w-9 h-9 object-contain bg-white"
+            />
+            <h3 className="font-display font-semibold text-paper text-lg">
+              {business.name || "SM Systems"}
+            </h3>
+          </div>
           <p className="mt-3 text-sm text-paper/60 leading-relaxed max-w-xs">
             {business.tagline || "Watching over what matters, day and night."}
           </p>
@@ -39,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-night-800 py-4 text-center text-xs text-paper/40">
-        © {year} {business.name || "SecureView CCTV"}. All rights reserved.
+        © {year} {business.name || "SM Systems"}. All rights reserved.
       </div>
     </footer>
   );
