@@ -9,9 +9,16 @@ ensureAdminExists();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173";
+const CLIENT_ORIGINS = (process.env.CLIENT_ORIGIN || "http://localhost:5173")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
 
-app.use(cors({ origin: CLIENT_ORIGIN }));
+app.use(
+  cors({
+    origin: CLIENT_ORIGINS.length === 1 ? CLIENT_ORIGINS[0] : CLIENT_ORIGINS,
+  })
+);
 app.use(express.json());
 
 // Serve uploaded product/offer images
